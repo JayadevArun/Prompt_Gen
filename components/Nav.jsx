@@ -29,7 +29,7 @@ const Nav = () => {
             height={30}
             className="object-contain"
             />
-            <p className="logo_text">Promptopia</p>
+            <p className="logo_text">PromptGen</p>
         </Link>
 
         {/*desktop nav*/}
@@ -37,9 +37,9 @@ const Nav = () => {
             {session?.user ? (
                 <div className="flex gap-3 md:gap-5">
                     <Link href='/create-prompt' className="black_btn">
-                        Create Post
+                        Create Prompt
                     </Link>
-                    <button type="button" className="outline_btn" onClick={signOut}>
+                    <button type="button" className="black_btn" onClick={signOut}>
                         Sign Out
                     </button>
                     <Link href='/profile'>

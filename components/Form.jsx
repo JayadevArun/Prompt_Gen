@@ -4,7 +4,7 @@ const Form = ({type,post,setPost,submitting,handleSubmit}) => {
   return (
     <section className="w-full flex-col flex-start max-w-full">
       <h1 className="text-left head_text">
-        <span className="blue_gradient">{type} Post</span>
+        <span className="blue_gradient">{type} Prompt</span>
       </h1>
       <p className="desc text-left max-w-md">
         {type} and share amazing prompts with the world, and let your imagination run wild with any AI-powered platform.
