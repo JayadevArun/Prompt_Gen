@@ -19,7 +19,7 @@ const handler=NextAuth({
             session.user.id=sessionUser._id.toString();
             return session;
         },
-        async signIn({account, profile, user, credentials}){
+        async signIn({ profile }){
             try{
                 await connectToDB();
     
