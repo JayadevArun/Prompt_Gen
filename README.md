@@ -1,3 +1,11 @@
+## PromptGen
+
+PromptGen is an open-source AI prompting tool designed for the modern world. This platform empowers users to discover, create, and share creative prompts powered by artificial intelligence. From writers seeking inspiration to artists sparking new ideas, PromptGen provides a collaborative space to explore and generate thought-provoking prompts.
+
+This innovative tool empowers individuals across different domains to tap into their creative potential and explore new horizons.The major application and usage of the PromptGen project lie in fostering creativity and providing a collaborative space for individuals in various creative fields.
+
+The platform is built using Next.js for the frontend, Tailwind CSS for styling, NextAuth for authentication, and Node.js with MongoDB for the backend, it also ensures a seamless and responsive user experience.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
